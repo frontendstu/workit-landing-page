@@ -37,4 +37,20 @@
   @media (min-width: 90em) {
     --link-fs: var(--fs-200);
   }
+
+  // Buttons
+  --btn-fw: var(--link-fw);
+  --btn-fs: var(--link-fs);
+
+  --btn-primary-color: hsl(var(--color-neutral-800));
+  --btn-primary-color-active: hsl(var(--color-accent));
+  --btn-primary-bg: hsl(var(--color-accent));
+  --btn-primary-bg: transparent;
+  --btn-primary-border: 2px solid hsl(var(--color-accent));
+  --btn-primary-padding: 0.75rem 1.5rem;
+
+  --btn-secondary-color: hsl(var(--color-neutral-100));
+  --btn-secondary-color-active: hsl(var(--color-accent));
+  --btn-secondary-border-bottom: 3px solid hsl(var(--color-accent));
+  --btn-secondary-padding-bottom: 0.3125rem;
 }
