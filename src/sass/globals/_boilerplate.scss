@@ -9,3 +9,9 @@ body {
 .heading {
   font-family: var(--heading-ff);
 }
+
+a {
+  text-decoration: none;
+  font: var(--link-fw) var(--link-fs) var(--link-ff);
+  transition: var(--link-transition);
+}
