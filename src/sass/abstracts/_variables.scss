@@ -27,4 +27,14 @@
   --leading-800: 80px;
 
   --tracking-100: -0.18px;
+
+  // Links
+  --link-fw: var(--fw-bold);
+  --link-fs: var(--fs-100);
+  --link-ff: var(--ff-copy);
+  --link-transition: 200ms ease-in-out all;
+
+  @media (min-width: 90em) {
+    --link-fs: var(--fs-200);
+  }
 }
