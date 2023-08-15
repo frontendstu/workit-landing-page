@@ -29,6 +29,17 @@
 
   --tracking-100: -0.18px;
 
+  // Copy
+  --copy-fw: var(--fw-regular);
+  --copy-fs: var(--fs-100);
+  --copy-leading: var(--leading-200);
+  --copy-color: hsl(var(--color-neutral-600));
+
+  @media (min-width: 90em) {
+    --copy-fs: var(--fs-100);
+    --copy-leading: var(--leading-300);
+  }
+
   // Links
   --link-fw: var(--fw-bold);
   --link-fs: var(--fs-100);
