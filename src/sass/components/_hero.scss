@@ -4,6 +4,10 @@
   text-align: center;
   padding-block: var(--hero-padding-block);
 
+  background-image: var(--hero-pattern-left-img-url);
+  background-repeat: no-repeat;
+  background-position: var(--hero-pattern-left-bg-pos);
+
   &__content {
     color: var(--hero-content-color);
     margin-inline: auto;
