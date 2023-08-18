@@ -3,10 +3,29 @@
 .hero {
   text-align: center;
   padding-block: var(--hero-padding-block);
+  position: relative;
 
-  background-image: var(--hero-pattern-left-img-url);
-  background-repeat: no-repeat;
-  background-position: var(--hero-pattern-left-bg-pos);
+  &::before,
+  &::after {
+    content: '';
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: var(--hero-pattern-img-size);
+    height: var(--hero-pattern-img-size);
+  }
+
+  &::before {
+    background-image: var(--hero-pattern-left-img-url);
+    top: var(--hero-pattern-left-img-top-pos);
+    left: var(--hero-pattern-left-img-left-pos);
+  }
+
+  &::after {
+    background-image: var(--hero-pattern-right-img-url);
+    right: var(--hero-pattern-right-img-right-pos);
+    bottom: var(--hero-pattern-right-img-bottom-pos);
+  }
 
   &__content {
     color: var(--hero-content-color);
