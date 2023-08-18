@@ -18,4 +18,14 @@
       background: var(--btn-primary-bg-active);
     }
   }
+
+  &[data-btn-style='secondary'] {
+    color: var(--btn-secondary-color);
+    border-bottom: var(--btn-secondary-border-bottom);
+    padding-bottom: var(--btn-secondary-padding-bottom);
+
+    @include abstract.hover {
+      color: var(--btn-secondary-color-active);
+    }
+  }
 }
