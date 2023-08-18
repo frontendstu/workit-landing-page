@@ -129,6 +129,19 @@
     --hero-img-height: 27.5625rem;
   }
 
+  // Hero Curve
+  --hero-curve-left-pos: 0;
+  --hero-curve-bottom-pos: 9rem;
+  --hero-curve-fill: hsl(var(--color-neutral-800));
+
+  @media (min-width: 48em) {
+    --hero-curve-bottom-pos: 6rem;
+  }
+
+  @media (min-width: 90em) {
+    --hero-curve-bottom-pos: -8rem;
+  }
+
   // Wrapper
   --wrapper-max-width: 21.4375rem;
 
