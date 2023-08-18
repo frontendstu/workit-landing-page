@@ -70,6 +70,13 @@
   --btn-secondary-border-bottom: 3px solid hsl(var(--color-accent));
   --btn-secondary-padding-bottom: 0.3125rem;
 
+  // Hero
+  --hero-padding-block: 4rem;
+
+  @media (min-width: 90em) {
+    --hero-padding-block: 3.5rem;
+  }
+
   // Wrapper
   --wrapper-max-width: 21.4375rem;
 
