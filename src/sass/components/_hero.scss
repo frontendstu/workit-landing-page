@@ -47,4 +47,17 @@
       margin-inline: auto;
     }
   }
+
+  &__img {
+    position: relative;
+
+    img {
+      width: var(--hero-img-width);
+      height: var(--hero-img-height);
+      margin-top: var(--hero-img-margin-top);
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
 }
