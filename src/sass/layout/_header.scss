@@ -1,1 +1,12 @@
 @use '../abstracts' as abstract;
+
+.header {
+  @include abstract.flex;
+
+  background-color: var(--header-bg);
+  padding-top: var(--header-padding-top);
+
+  &__branding {
+    margin-right: auto;
+  }
+}
