@@ -112,6 +112,23 @@
     --hero-content-heading-leading: 90px;
   }
 
+  // Hero Image
+  --hero-img-margin-top: 4rem;
+  --hero-img-width: 20rem;
+  --hero-img-height: 11.5rem;
+
+  @media (min-width: 48em) {
+    --hero-img-margin-top: 2rem;
+    --hero-img-width: 32.125rem;
+    --hero-img-height: 18.5rem;
+  }
+
+  @media (min-width: 90em) {
+    --hero-img-margin-top: 3.125rem;
+    --hero-img-width: 47.9375rem;
+    --hero-img-height: 27.5625rem;
+  }
+
   // Wrapper
   --wrapper-max-width: 21.4375rem;
 
