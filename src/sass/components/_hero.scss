@@ -60,4 +60,16 @@
       transform: translateX(-50%);
     }
   }
+
+  &__curve {
+    position: absolute;
+    width: 100%;
+    left: var(--hero-curve-left-pos);
+    bottom: var(--hero-curve-bottom-pos);
+    z-index: -1;
+
+    path {
+      fill: var(--hero-curve-fill);
+    }
+  }
 }
