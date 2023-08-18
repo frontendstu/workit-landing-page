@@ -4,6 +4,7 @@ body {
   font: var(--copy-fw) var(--copy-fs) var(--ff-copy);
   line-height: var(--copy-leading);
   color: var(--copy-color);
+  overflow-x: hidden;
 }
 
 .heading {
