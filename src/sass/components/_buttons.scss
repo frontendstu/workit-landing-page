@@ -1,1 +1,9 @@
 @use '../abstracts' as abstract;
+
+.btn {
+  @include abstract.flex;
+
+  font-weight: var(--btn-fw);
+  font-size: var(--btn-fs);
+  width: fit-content;
+}
