@@ -74,6 +74,8 @@
   --hero-padding-block: 4rem 9.75rem;
 
   @media (min-width: 48em) {
+    --hero-pattern-left-img-url: url('../assets/images/bg-pattern-1.svg');
+    --hero-pattern-left-bg-pos: -14rem 1.25rem;
     --hero-padding-block: 4rem 12.75rem;
   }
 
