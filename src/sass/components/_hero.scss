@@ -1,5 +1,26 @@
 @use '../abstracts' as abstract;
 
 .hero {
+  text-align: center;
   padding-block: var(--hero-padding-block);
+
+  &__content {
+    color: var(--hero-content-color);
+    margin-inline: auto;
+    max-width: var(--hero-content-max-width);
+
+    .heading {
+      font-size: var(--hero-content-heading-fs);
+      line-height: var(--hero-content-heading-leading);
+      margin-inline: auto;
+
+      span {
+        border-bottom: var(--hero-content-heading-span-border-bottom);
+      }
+    }
+
+    .btn {
+      margin-inline: auto;
+    }
+  }
 }
