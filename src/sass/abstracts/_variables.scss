@@ -71,10 +71,14 @@
   --btn-secondary-padding-bottom: 0.3125rem;
 
   // Hero
-  --hero-padding-block: 4rem;
+  --hero-padding-block: 4rem 9.75rem;
+
+  @media (min-width: 48em) {
+    --hero-padding-block: 4rem 12.75rem;
+  }
 
   @media (min-width: 90em) {
-    --hero-padding-block: 3.5rem;
+    --hero-padding-block: 3.5rem 20.375rem;
   }
 
   // Hero Content
