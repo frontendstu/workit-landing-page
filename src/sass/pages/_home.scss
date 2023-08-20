@@ -4,6 +4,10 @@
   padding-top: var(--features-padding-top);
   text-align: center;
 
+  &__item {
+    margin-top: var(--features-item-margin-top);
+  }
+
   &__marker {
     @include abstract.flex;
     font-size: var(--features-marker-fs);
