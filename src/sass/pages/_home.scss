@@ -20,6 +20,10 @@
       color: var(--features-item-heading-color);
       margin-top: var(--features-item-heading-margin-top);
     }
+
+    @media (min-width: 48em) {
+      @include abstract.flex;
+    }
   }
 
   &__marker {
