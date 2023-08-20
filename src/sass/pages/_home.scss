@@ -10,6 +10,12 @@
 
   &__item {
     margin-top: var(--features-item-margin-top);
+
+    .heading {
+      font-size: var(--features-item-heading-fs);
+      color: var(--features-item-heading-color);
+      margin-top: var(--features-item-heading-margin-top);
+    }
   }
 
   &__marker {
