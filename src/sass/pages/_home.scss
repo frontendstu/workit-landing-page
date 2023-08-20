@@ -11,6 +11,10 @@
   &__item {
     margin-top: var(--features-item-margin-top);
 
+    p {
+      margin-top: var(--features-content-margin-top);
+    }
+
     .heading {
       font-size: var(--features-item-heading-fs);
       color: var(--features-item-heading-color);
