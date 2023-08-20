@@ -159,4 +159,15 @@
   @media (min-width: 90em) {
     --header-padding-top: 3.5rem;
   }
+
+  // Features
+  --features-padding-top: 8.875rem;
+
+  @media (min-width: 48em) {
+    --features-padding-top: 13rem;
+  }
+
+  @media (min-width: 90em) {
+    --features-padding-top: 14.5rem;
+  }
 }
