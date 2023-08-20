@@ -175,10 +175,13 @@
   --features-marker-radius: 99vw;
   --features-marker-size: 3rem;
 
+  --features-content-margin-top: 1.5rem;
+
   @media (min-width: 48em) {
     --features-padding-top: 13rem;
     --features-item-margin-top: 3rem;
     --features-item-heading-margin-top: 3rem;
+    --features-content-margin-top: 1rem;
   }
 
   @media (min-width: 90em) {
@@ -188,5 +191,6 @@
     --features-item-heading-margin-top: 3.5rem;
     --features-marker-fs: 1.5rem;
     --features-marker-size: 3.5rem;
+    --features-content-margin-top: 1.75rem;
   }
 }
