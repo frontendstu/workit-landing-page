@@ -1,0 +1,6 @@
+@use '../abstracts' as abstract;
+
+.features {
+  padding-top: var(--features-padding-top);
+  text-align: center;
+}
