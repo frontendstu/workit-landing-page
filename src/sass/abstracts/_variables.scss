@@ -163,11 +163,21 @@
   // Features
   --features-padding-top: 8.875rem;
 
+  --features-marker-fs: 1.25rem;
+  --features-marker-ff: var(--ff-heading);
+  --features-marker-color: hsl(var(--color-neutral-800));
+  --features-marker-border: 1px solid hsl(var(--color-neutral-800));
+  --features-marker-radius: 99vw;
+  --features-marker-size: 3rem;
+
   @media (min-width: 48em) {
     --features-padding-top: 13rem;
   }
 
   @media (min-width: 90em) {
     --features-padding-top: 14.5rem;
+
+    --features-marker-fs: 1.5rem;
+    --features-marker-size: 3.5rem;
   }
 }
