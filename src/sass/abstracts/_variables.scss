@@ -164,6 +164,9 @@
   --features-padding-top: 8.875rem;
 
   --features-item-margin-top: 2.5rem;
+  --features-item-heading-fs: 1.75rem;
+  --features-item-heading-color: hsl(var(--color-neutral-800));
+  --features-item-heading-margin-top: 1.5rem;
 
   --features-marker-fs: 1.25rem;
   --features-marker-ff: var(--ff-heading);
@@ -175,11 +178,14 @@
   @media (min-width: 48em) {
     --features-padding-top: 13rem;
     --features-item-margin-top: 3rem;
+    --features-item-heading-margin-top: 3rem;
   }
 
   @media (min-width: 90em) {
     --features-padding-top: 14.5rem;
     --features-item-margin-top: 0;
+    --features-item-heading-fs: var(--fs-300);
+    --features-item-heading-margin-top: 3.5rem;
     --features-marker-fs: 1.5rem;
     --features-marker-size: 3.5rem;
   }
