@@ -36,5 +36,9 @@
     margin-inline: auto;
     width: var(--features-marker-size);
     height: var(--features-marker-size);
+
+    @media (min-width: 48em) {
+      margin-right: var(--features-marker-margin-right);
+    }
   }
 }
