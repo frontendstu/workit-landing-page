@@ -180,6 +180,7 @@
   @media (min-width: 48em) {
     --features-padding-top: 13rem;
     --features-item-margin-top: 3rem;
+    --features-marker-margin-right: 2rem;
     --features-item-heading-margin-top: 3rem;
     --features-content-margin-top: 1rem;
   }
@@ -191,6 +192,7 @@
     --features-item-heading-margin-top: 3.5rem;
     --features-marker-fs: 1.5rem;
     --features-marker-size: 3.5rem;
+    --features-marker-margin-right: 0;
     --features-content-margin-top: 1.75rem;
   }
 }
