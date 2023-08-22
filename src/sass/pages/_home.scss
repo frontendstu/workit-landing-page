@@ -40,5 +40,9 @@
     @media (min-width: 48em) {
       margin-right: var(--features-marker-margin-right);
     }
+
+    @media (min-width: 90em) {
+      margin-inline: auto;
+    }
   }
 }
