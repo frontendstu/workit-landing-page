@@ -59,4 +59,15 @@
       margin-inline: auto;
     }
   }
+
+  &__curve {
+    position: absolute;
+    width: 100%;
+    transform: translateY(-1rem);
+    z-index: 1;
+
+    path {
+      fill: var(--features-curve-fill);
+    }
+  }
 }
