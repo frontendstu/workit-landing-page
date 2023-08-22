@@ -1,1 +1,24 @@
 @use '../abstracts' as abstract;
+
+.footer {
+  @include abstract.flex;
+
+  flex-direction: column;
+  row-gap: var(--footer-row-gap);
+
+  &__socials {
+    ul {
+      @include abstract.flex;
+      column-gap: var(--footer-socials-col-gap);
+    }
+
+    svg {
+      fill: var(--footer-socials-icon-fill);
+      transition: var(--footer-socials-transition);
+
+      @include abstract.hover {
+        fill: var(--footer-socials-icon-fill-active);
+      }
+    }
+  }
+}
