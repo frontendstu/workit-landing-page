@@ -1,7 +1,7 @@
 @use '../abstracts' as abstract;
 
 .features {
-  padding-top: var(--features-padding-top);
+  padding-block: var(--features-padding-block);
   text-align: center;
 
   @media (min-width: 48em) {
