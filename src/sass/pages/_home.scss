@@ -8,6 +8,12 @@
     text-align: left;
   }
 
+  @media (min-width: 90em) {
+    ol {
+      @include abstract.grid($columns: 3, $gap: 0 1.625rem);
+    }
+  }
+
   &__item {
     margin-top: var(--features-item-margin-top);
 
