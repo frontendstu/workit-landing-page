@@ -29,6 +29,10 @@
     row-gap: var(--cta-content-row-gap);
     max-width: var(--cta-content-max-width);
 
+    @media (min-width: 48em) {
+      margin-left: auto;
+    }
+
     .heading {
       font-size: var(--cta-content-heading-fs);
       line-height: var(--cta-content-heading-leading);
