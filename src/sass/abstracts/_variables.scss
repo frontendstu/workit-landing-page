@@ -204,13 +204,35 @@
 
   --cta-img-width: 17.5625rem;
 
+  --cta-content-text-align: center;
+  --cta-content-color: hsl(var(--color-neutral-100));
+  --cta-content-bg: hsl(var(--color-neutral-800));
+  --cta-content-padding: 1.875rem;
+  --cta-content-row-gap: 1rem;
+  --cta-content-max-width: 21.4375rem;
+  --cta-content-heading-fs: var(--fs-300);
+  --cta-content-heading-leading: 48px;
+
   @media (min-width: 48em) {
     --cta-padding-block: 6.25rem 5rem;
+
+    --cta-content-text-align: left;
+    --cta-content-padding: 3.5rem;
+    --cta-content-row-gap: 1.5rem;
+    --cta-content-max-width: 32.125rem;
+    --cta-content-heading-fs: 3rem;
+    --cta-content-heading-leading: 56px;
   }
 
   @media (min-width: 90em) {
     --cta-padding-block: 6.875rem 7.5625rem;
 
     --cta-img-width: 29.8125rem;
+
+    --cta-content-padding: 4rem;
+    --cta-content-row-gap: 2rem;
+    --cta-content-max-width: 45.625rem;
+    --cta-content-heading-fs: var(--fs-500);
+    --cta-content-heading-leading: var(--leading-600);
   }
 }
