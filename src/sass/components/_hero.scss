@@ -61,4 +61,15 @@
       z-index: 999;
     }
   }
+
+  &__curve {
+    position: absolute;
+    width: 100%;
+    transform: translateY(-1rem);
+    z-index: 1;
+
+    path {
+      fill: var(--hero-curve-fill);
+    }
+  }
 }
