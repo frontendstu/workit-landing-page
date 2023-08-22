@@ -198,4 +198,15 @@
     --features-marker-margin-right: 0;
     --features-content-margin-top: 1.75rem;
   }
+
+  // CTA
+  --cta-padding-block: 6.25rem 4.625rem;
+
+  @media (min-width: 48em) {
+    --cta-padding-block: 6.25rem 5rem;
+  }
+
+  @media (min-width: 48em) {
+    --cta-padding-block: 6.875rem 7.5625rem;
+  }
 }
