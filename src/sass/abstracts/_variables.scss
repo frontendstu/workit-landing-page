@@ -192,6 +192,8 @@
 
   --features-content-margin-top: 1.5rem;
 
+  --features-curve-fill: hsl(var(--color-neutral-200));
+
   @media (min-width: 48em) {
     --features-padding-block: 13rem 6.4375rem;
     --featured-item-padding-inline: 0.5rem;
