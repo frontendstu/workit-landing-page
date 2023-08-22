@@ -1,7 +1,9 @@
 @use '../abstracts' as abstract;
 
 .cta {
+  margin-inline: auto;
   padding-block: var(--cta-padding-block);
+  max-width: var(--cta-max-width);
 
   &__img {
     margin-inline: auto;
