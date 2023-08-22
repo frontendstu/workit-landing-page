@@ -7,4 +7,28 @@
     margin-inline: auto;
     width: var(--cta-img-width);
   }
+
+  &__content {
+    @include abstract.flex;
+
+    text-align: var(--cta-content-text-align);
+    color: var(--cta-content-color);
+    background-color: var(--cta-content-bg);
+    padding: var(--cta-content-padding);
+    flex-direction: column;
+    row-gap: var(--cta-content-row-gap);
+    max-width: var(--cta-content-max-width);
+
+    .heading {
+      font-size: var(--cta-content-heading-fs);
+      line-height: var(--cta-content-heading-leading);
+    }
+
+    .heading,
+    .btn {
+      @media (min-width: 48em) {
+        align-self: flex-start;
+      }
+    }
+  }
 }
