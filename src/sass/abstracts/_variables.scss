@@ -220,6 +220,9 @@
     --cta-max-width: 43.0625rem;
 
     --cta-content-text-align: left;
+    --cta-pattern-img-url: url('../assets/images/bg-pattern-3.svg');
+    --cta-pattern-img-transform: translate(9rem, 12rem);
+    --cta-pattern-img-size: 12rem;
     --cta-content-margin-top: -8rem;
     --cta-content-padding: 3.5rem;
     --cta-content-row-gap: 1.5rem;
@@ -234,6 +237,7 @@
 
     --cta-img-width: 29.8125rem;
 
+    --cta-pattern-img-transform: translate(11.5rem, 9.875rem);
     --cta-content-margin-top: -19rem;
     --cta-content-padding: 4rem;
     --cta-content-row-gap: 2rem;
