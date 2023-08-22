@@ -1,1 +1,5 @@
 @use '../abstracts' as abstract;
+
+.cta {
+  padding-block: var(--cta-padding-block);
+}
