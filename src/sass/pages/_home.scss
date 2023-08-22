@@ -18,6 +18,7 @@
 
   &__item {
     margin-top: var(--features-item-margin-top);
+    padding-inline: var(--featured-item-padding-inline);
 
     p {
       margin-top: var(--features-content-margin-top);
