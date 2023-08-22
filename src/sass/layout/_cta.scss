@@ -7,6 +7,10 @@
     margin-inline: auto;
     width: var(--cta-img-width);
 
+    @media (min-width: 48em) {
+      margin-inline: unset;
+    }
+
     img {
       position: relative;
       z-index: -999;
