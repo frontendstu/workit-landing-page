@@ -33,6 +33,17 @@
 
     @media (min-width: 48em) {
       margin-left: auto;
+
+      &::after {
+        content: '';
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: var(--cta-pattern-img-url);
+        position: absolute;
+        transform: var(--cta-pattern-img-transform);
+        width: var(--cta-pattern-img-size);
+        height: var(--cta-pattern-img-size);
+      }
     }
 
     .heading {
