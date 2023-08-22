@@ -22,3 +22,17 @@
     }
   }
 }
+
+.attribution,
+.attribution a {
+  font-size: var(--attribution-fs);
+  text-align: center;
+  color: var(--attribution-color);
+  margin-block: var(--attribution-margin-block);
+
+  a {
+    @include abstract.hover-focus {
+      color: var(--attribution-color-active);
+    }
+  }
+}
