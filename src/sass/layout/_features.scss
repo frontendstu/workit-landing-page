@@ -1,0 +1,62 @@
+@use '../abstracts' as abstract;
+
+.features {
+  padding-block: var(--features-padding-block);
+  text-align: center;
+
+  @media (min-width: 48em) {
+    text-align: left;
+  }
+
+  @media (min-width: 90em) {
+    ol {
+      @include abstract.grid($columns: 3, $gap: 0 1.625rem);
+
+      text-align: center;
+    }
+  }
+
+  &__item {
+    margin-top: var(--features-item-margin-top);
+    padding-inline: var(--featured-item-padding-inline);
+
+    p {
+      margin-top: var(--features-content-margin-top);
+    }
+
+    .heading {
+      font-size: var(--features-item-heading-fs);
+      color: var(--features-item-heading-color);
+      margin-top: var(--features-item-heading-margin-top);
+    }
+
+    @media (min-width: 48em) {
+      @include abstract.flex;
+    }
+
+    @media (min-width: 90em) {
+      display: unset;
+    }
+  }
+
+  &__marker {
+    @include abstract.flex;
+    font-size: var(--features-marker-fs);
+    font-family: var(--features-marker-ff);
+    color: var(--features-marker-color);
+    border: var(--features-marker-border);
+    border-radius: var(--features-marker-radius);
+    margin-inline: auto;
+    width: var(--features-marker-size);
+    height: var(--features-marker-size);
+
+    @media (min-width: 48em) {
+      margin-right: var(--features-marker-margin-right);
+      flex-shrink: 0;
+    }
+
+    @media (min-width: 90em) {
+      margin-inline: auto;
+    }
+  }
+}
