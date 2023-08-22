@@ -6,6 +6,11 @@
   &__img {
     margin-inline: auto;
     width: var(--cta-img-width);
+
+    img {
+      position: relative;
+      z-index: -999;
+    }
   }
 
   &__content {
