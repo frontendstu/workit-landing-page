@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - [🤓 Solution](https://github.com/frontendstu/workit-landing-page)
-- [🌐 Add live site](https://frontendstu.github.io/workit-landing-page/)
+- [🌐 Live site](https://frontendstu.github.io/workit-landing-page/)
 
 ## My process
 
