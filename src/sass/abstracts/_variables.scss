@@ -169,10 +169,14 @@
   --footer-socials-transition: var(--link-transition);
 
   // Attribution
-  --attribution-fs: 0.875rem;
+  --attribution-fs: 0.75rem;
   --attribution-color: hsla(var(--color-neutral-600), 0.75);
   --attribution-color-active: hsl(var(--color-neutral-800));
   --attribution-margin-block: 2rem;
+
+  @media (min-width: 48em) {
+    --attribution-fs: 0.875rem;
+  }
 
   // Features
   --features-padding-block: 8.875rem 4.4375rem;
