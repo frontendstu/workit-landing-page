@@ -160,6 +160,14 @@
     --header-padding-top: 3.5rem;
   }
 
+  // Footer
+  --footer-row-gap: 3.5625rem;
+
+  --footer-socials-col-gap: 1.75rem;
+  --footer-socials-icon-fill: hsl(var(--color-neutral-600));
+  --footer-socials-icon-fill-active: hsl(var(--color-neutral-800));
+  --footer-socials-transition: var(--link-transition);
+
   // Features
   --features-padding-block: 8.875rem 4.4375rem;
 
