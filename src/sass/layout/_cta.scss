@@ -2,4 +2,9 @@
 
 .cta {
   padding-block: var(--cta-padding-block);
+
+  &__img {
+    margin-inline: auto;
+    width: var(--cta-img-width);
+  }
 }
