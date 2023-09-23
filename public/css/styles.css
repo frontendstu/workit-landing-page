@@ -324,6 +324,10 @@ a {
   overflow-y: hidden;
 }
 
+.hide-overflow-x {
+  overflow-x: hidden;
+}
+
 .btn {
   display: flex;
   align-items: center;
