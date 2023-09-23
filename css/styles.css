@@ -320,6 +320,10 @@ a {
   overflow: hidden;
 }
 
+.hide-overflow-y {
+  overflow-y: hidden;
+}
+
 .btn {
   display: flex;
   align-items: center;
