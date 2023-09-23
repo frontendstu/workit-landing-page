@@ -1,3 +1,9 @@
+.hide-overflow,
+.hide-overflow-y,
+.hide-overflow-x {
+  position: relative;
+}
+
 .hide-overflow {
   overflow: hidden;
 }
